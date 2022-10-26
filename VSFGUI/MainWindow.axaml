@@ -1,0 +1,50 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="350"
+        x:Class="VSFGUI.MainWindow"
+        Title="VSeeFace Stream OSC"
+        >
+    <Window.Styles>
+        <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="Black" />
+        </Style>
+        <Style Selector="Button:pressed /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="Yellow"></Setter>
+        </Style>
+        <Style Selector="Button">
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Background" Value="Green"/>
+        </Style>
+    </Window.Styles>
+    <Grid RowDefinitions="Auto, *, Auto">
+        
+        <!-- Title Bar -->
+        <Grid Grid.Row="0" Background="Gray" Height="40" ColumnDefinitions="Auto, Auto, *, Auto, Auto">
+            
+            <Button Grid.Column="0" Background="Red"></Button>
+            <Button Grid.Column="1" Background="Blue"></Button>
+            <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Label FontWeight="Black" >VSeeFace</Label>
+                <Label>OSC Integration</Label>
+            </StackPanel>
+            <Button Grid.Column="3" Click="Youtube_Button">
+                <Image></Image>
+            </Button>
+            <Button Grid.Column="4" Background="Purple" Click="Twitch_Button"></Button>
+        </Grid>
+        
+        <!-- Main Body -->
+        <Grid Grid.Row="1" Background="White" ColumnDefinitions="*">
+            <TextBox Grid.Column="0" Name="ConsoleBox"></TextBox>
+        </Grid>
+
+        <!-- Bottom Bar -->
+        <Grid Grid.Row="2" Background="Orange" Height="40" ColumnDefinitions="Auto, Auto, *, Auto, Auto">
+            <Label Grid.Column="0" Width="100">wawa</Label>
+        </Grid>
+
+    </Grid>
+</Window>

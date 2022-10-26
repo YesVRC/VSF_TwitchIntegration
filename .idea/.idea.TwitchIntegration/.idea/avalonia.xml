@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="VSFGUI/App.axaml" value="VSFGUI/VSFGUI.csproj" />
+        <entry key="VSFGUI/MainWindow.axaml" value="VSFGUI/VSFGUI.csproj" />
+        <entry key="VSFGUI_Ava/VSFGUI_Ava/App.axaml" value="VSFGUI_Ava/VSFGUI_Ava.Desktop/VSFGUI_Ava.Desktop.csproj" />
+        <entry key="VSFGUI_Ava/VSFGUI_Ava/Views/MainView.axaml" value="VSFGUI_Ava/VSFGUI_Ava.Desktop/VSFGUI_Ava.Desktop.csproj" />
+        <entry key="VSFGUI_Ava/VSFGUI_Ava/Views/MainWindow.axaml" value="VSFGUI_Ava/VSFGUI_Ava.Desktop/VSFGUI_Ava.Desktop.csproj" />
+        <entry key="VSFGUI_Avalonia/MainWindow.axaml" value="VSFGUI_Avalonia/VSFGUI.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

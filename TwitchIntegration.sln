@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchIntegration", "TwitchIntegration\TwitchIntegration.csproj", "{D7D79B0E-B046-4E1A-A0DC-FD9858EF58ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSFGUI", "VSFGUI\VSFGUI.csproj", "{088A9C77-41CD-42AB-B65F-71831F01D47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSFGUI_Ava", "VSFGUI_Ava\VSFGUI_Ava\VSFGUI_Ava.csproj", "{2415F77B-7C02-4138-967A-1C42BFDEFA49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSFGUI_Ava.Desktop", "VSFGUI_Ava\VSFGUI_Ava.Desktop\VSFGUI_Ava.Desktop.csproj", "{2D49972E-9A54-4382-9A10-7D88E8DA111E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSFGUI_Ava.Web", "VSFGUI_Ava\VSFGUI_Ava.Web\VSFGUI_Ava.Web.csproj", "{3EF4551E-5F66-43BA-B8CF-A211B902FEC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{D7D79B0E-B046-4E1A-A0DC-FD9858EF58ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7D79B0E-B046-4E1A-A0DC-FD9858EF58ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7D79B0E-B046-4E1A-A0DC-FD9858EF58ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088A9C77-41CD-42AB-B65F-71831F01D47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088A9C77-41CD-42AB-B65F-71831F01D47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088A9C77-41CD-42AB-B65F-71831F01D47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088A9C77-41CD-42AB-B65F-71831F01D47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2415F77B-7C02-4138-967A-1C42BFDEFA49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2415F77B-7C02-4138-967A-1C42BFDEFA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2415F77B-7C02-4138-967A-1C42BFDEFA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2415F77B-7C02-4138-967A-1C42BFDEFA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D49972E-9A54-4382-9A10-7D88E8DA111E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D49972E-9A54-4382-9A10-7D88E8DA111E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D49972E-9A54-4382-9A10-7D88E8DA111E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D49972E-9A54-4382-9A10-7D88E8DA111E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF4551E-5F66-43BA-B8CF-A211B902FEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF4551E-5F66-43BA-B8CF-A211B902FEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF4551E-5F66-43BA-B8CF-A211B902FEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF4551E-5F66-43BA-B8CF-A211B902FEC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
