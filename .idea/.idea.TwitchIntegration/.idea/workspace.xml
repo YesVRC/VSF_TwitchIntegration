@@ -8,15 +8,22 @@
     <projectFile>VSFGUI_Avalonia/VSFGUI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84992d01-883f-4aa1-aeea-fe4a987ac211" name="Changes" comment="" />
+    <list default="true" id="84992d01-883f-4aa1-aeea-fe4a987ac211" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/ViewModels/TestViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/Views/TestView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/Views/TestView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TwitchIntegration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TwitchIntegration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitchIntegration/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TwitchIntegration/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/VSFGUI_Ava.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/VSFGUI_Ava.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/Views/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/Views/MainView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/VSFGUI_Ava/VSFGUI_Ava/Views/MainWindow.axaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/71a2559fd5564151953fb9d66afa723d12200/05/126fbcd4/OscMessageEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/842f3da619d6ebe10bcf1bf35c33924ac59cb7d51d22e5a742e15689df6659/Label.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VSFGUI_Avalonia/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
@@ -32,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.VSFGUI">
     <configuration name="VSFGUI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/VSFGUI/bin/Debug/net6.0/VSFGUI.exe" />
@@ -131,6 +138,8 @@
       <workItem from="1666718908762" duration="15637000" />
       <workItem from="1666759316785" duration="273000" />
       <workItem from="1666759607984" duration="2785000" />
+      <workItem from="1666801913161" duration="125000" />
+      <workItem from="1666802130070" duration="1087000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,7 @@
         <entry key="VSFGUI_Ava/VSFGUI_Ava/App.axaml" value="VSFGUI_Ava/VSFGUI_Ava.Desktop/VSFGUI_Ava.Desktop.csproj" />
         <entry key="VSFGUI_Ava/VSFGUI_Ava/Views/MainView.axaml" value="VSFGUI_Ava/VSFGUI_Ava.Desktop/VSFGUI_Ava.Desktop.csproj" />
         <entry key="VSFGUI_Ava/VSFGUI_Ava/Views/MainWindow.axaml" value="VSFGUI_Ava/VSFGUI_Ava.Desktop/VSFGUI_Ava.Desktop.csproj" />
+        <entry key="VSFGUI_Ava/VSFGUI_Ava/Views/TestView.axaml" value="VSFGUI_Ava/VSFGUI_Ava.Desktop/VSFGUI_Ava.Desktop.csproj" />
         <entry key="VSFGUI_Avalonia/MainWindow.axaml" value="VSFGUI_Avalonia/VSFGUI.csproj" />
       </map>
     </option>

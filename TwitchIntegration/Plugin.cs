@@ -61,6 +61,7 @@ namespace TwitchIntegration
         {
             //OSC Reciever
             Logger.LogMessage($"Got message to {message.address}, with {message.values.Length}");
+            
             if(Avatar.transform.childCount == 0)
             {
                 Logger.LogError("No Avatar Loaded!");
@@ -102,6 +103,7 @@ namespace TwitchIntegration
 
 
             }
+            
         }
 
         public void ColorSet(Color color, Message message)
