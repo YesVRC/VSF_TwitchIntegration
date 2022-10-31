@@ -7,12 +7,12 @@
              x:Class="VSFGUI_Ava.Views.MainView"
              
              Foreground="White"
-             Background="#171C2C">
+             Background="Green">
   <Design.DataContext>
     <viewModels:MainViewModel />
   </Design.DataContext>
-<Grid RowDefinitions="Auto, *" Background="Gray">
+<Grid RowDefinitions="Auto, *" Background="Green">
   <TextBlock Grid.Row="0" Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-  <Label Grid.Row="1">test</Label>
+  <Label Grid.Row="1">Main</Label>
 </Grid>
 </UserControl>
